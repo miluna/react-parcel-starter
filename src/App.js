@@ -1,11 +1,9 @@
-import React, { Component } from 'react'
+import React from 'react';
+import './app.scss';
+import Title from "./Title";
 
-export default class App extends Component {
-  render() {
-    return (
-      <div>
-          Hello World
-      </div>
-    )
-  }
-}
+const App = () => {
+    return <Title name="Hello Parcel"/>
+};
+
+export default App;
