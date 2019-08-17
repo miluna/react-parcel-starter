@@ -4,4 +4,17 @@ $secondary: rgb(26, 151, 221);
 body {
   color: $primary;
   background-color: $secondary;
+  margin: auto;
+}
+.center-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
